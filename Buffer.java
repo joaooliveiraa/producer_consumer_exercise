@@ -45,7 +45,7 @@ public class Buffer {
         }
     }
     
-    public void awaint(){
+    public void await(){
         try {
             TimeUnit.SECONDS.sleep(30);
         } catch (InterruptedException ex) {
